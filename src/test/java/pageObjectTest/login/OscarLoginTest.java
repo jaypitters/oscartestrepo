@@ -85,9 +85,4 @@ public class OscarLoginTest {
 		assertTrue(loginPage.isLoginError());
 	}
 	
-//	@AfterClass 
-//	public void closeDriver() {
-//        getDriver().close();
-//	}
-	
 }
