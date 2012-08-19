@@ -17,13 +17,6 @@ import pageObject.OscarPage;
 
 public class OscarLoginTest {
 	
-	@AfterClass
-	public void tearDownAfterClass()
-	{
-		// close the current selenium driver and all opened driver windows 
-		getDriver().close();
-	}
-	
 	@After
 	public void tearDown() {
 		// logout and close driver
