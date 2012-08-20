@@ -3,6 +3,8 @@ package pageObject;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import pageObject.login.OscarLoginPage;
+
 public class OscarHomePage extends OscarPage<OscarHomePage>{
 
 	@Override

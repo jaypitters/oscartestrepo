@@ -12,8 +12,8 @@ import org.junit.Test;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 import pageObject.OscarHomePage;
-import pageObject.OscarLoginPage;
 import pageObject.OscarPage;
+import pageObject.login.OscarLoginPage;
 
 public class OscarLoginTest {
 	
