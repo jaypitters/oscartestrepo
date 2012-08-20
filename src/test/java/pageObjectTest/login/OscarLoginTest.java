@@ -12,17 +12,10 @@ import org.junit.Test;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 
 import pageObject.OscarHomePage;
-import pageObject.OscarLoginPage;
 import pageObject.OscarPage;
+import pageObject.login.OscarLoginPage;
 
 public class OscarLoginTest {
-	
-	@AfterClass
-	public void tearDownAfterClass()
-	{
-		// close the current selenium driver and all opened driver windows 
-		getDriver().close();
-	}
 	
 	@After
 	public void tearDown() {
